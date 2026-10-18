@@ -1,5 +1,10 @@
 # 无尽冬日兑换码兑换工具
 
+> ⚠️ **免责声明**：
+> 
+> 本工具仅限个人自用，请勿用于商业用途。
+> 利用本工具白嫖牟利者请自重，后果自负。
+
 自动兑换无尽冬日兑换码的工具，提供两种实现方式：
 
 - **Python 脚本**（`main.py`）：适合批量自动化处理，支持命令行操作
@@ -60,8 +65,6 @@ pip install -r requirements.txt
 
 #### 运行脚本
 
-> **注意：** 在 macOS/Linux 系统上，请使用 `python3` 命令替代 `python`。
-
 ```bash
 # Windows
 python main.py -c '礼包码1' '礼包码2'
@@ -100,7 +103,7 @@ python3 main.py -c 'WJDR666' -a my_accounts.json        # macOS/Linux
 
 ## 方式二：Chrome/Edge 浏览器插件
 
-基于 Manifest V3 的浏览器扩展，使用真实浏览器环境进行礼包兑换，提供可视化操作界面。
+基于 Manifest V3 的浏览器扩展，使用真实浏览器环境进行礼包兑换。
 
 ### 安装插件
 
@@ -135,4 +138,3 @@ python3 main.py -c 'WJDR666' -a my_accounts.json        # macOS/Linux
 4. **开始兑换**：点击「开始兑换」按钮，插件会自动打开目标页面并执行兑换
 
 5. **查看结果**：运行日志区域会实时显示兑换进度和结果
-
